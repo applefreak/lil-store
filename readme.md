@@ -51,6 +51,14 @@ State management is not a React/Vue only need!
 
 This library (more like code snippet) allows you to easily create a _reactive_ store for whatever needs you have!
 
+## Roadmap
+
+- [ ] Export module for browser use
+- [ ] Publish that to [unpkg.com](https://unpkg.com/) or something
+- [ ] Add tests
+- [ ] Implement TravisCI
+- [ ] Implement code coverage
+
 ## License
 
 [MIT](https://poyu.mit-license.org/)
