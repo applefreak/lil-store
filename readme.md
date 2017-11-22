@@ -55,7 +55,7 @@ Through [UNPKG](https://unpkg.com/):
 
 An object named `lilStore` is exposed to the global `Window` object.
 
-You can then access createStore like so:
+You can then access `createStore` like so:
 
 ```html
 <script>
@@ -71,8 +71,8 @@ This library (more like code snippet) allows you to easily create a _reactive_ s
 
 ## Roadmap
 
-- [ ] Export module for browser use
-- [ ] Publish that to [unpkg.com](https://unpkg.com/) or something
+- [x] Export module for browser use
+- [x] Publish that to [unpkg.com](https://unpkg.com/) or something
 - [ ] Add tests
 - [ ] Implement TravisCI
 - [ ] Implement code coverage
