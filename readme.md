@@ -45,6 +45,14 @@ store.commit('incr') // prints out 7
 store.commit('decr') // prints out 6
 ```
 
+### In Browser
+
+Through [UNPKG](https://unpkg.com/):
+
+```html
+<script src="https://unpkg.com/lil-store"></script>
+```
+
 ## Why
 
 State management is not a React/Vue only need!
