@@ -53,6 +53,16 @@ Through [UNPKG](https://unpkg.com/):
 <script src="https://unpkg.com/lil-store"></script>
 ```
 
+An object named `lilStore` is exposed to the global `Window` object.
+
+You can then access createStore like so:
+
+```html
+<script>
+var createStore = lilStore.createStore;
+</script>
+```
+
 ## Why
 
 State management is not a React/Vue only need!
