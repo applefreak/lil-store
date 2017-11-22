@@ -9,7 +9,7 @@ module.exports = {
       },
       commit(action, payload) {
         store = reducer(store, action, payload)
-        listener.forEach(cur => cur(store))
+        listener.forEach(cur => cur(store, action))
       },
       subscribe(cb) {
         if (typeof cb === 'function') {
