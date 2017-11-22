@@ -1,9 +1,10 @@
 {
   "name": "lil-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Super tiny state management library",
   "main": "index.js",
   "scripts": {
+    "build": "babel index.js -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -12,5 +13,9 @@
     "store"
   ],
   "author": "Poyu Chen <me@poyu.xyz>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
 }

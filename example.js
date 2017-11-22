@@ -1,4 +1,4 @@
-const { createStore } = require('./index')
+const { createStore } = require('./dist')
 
 const reducer = (store, action, payload) => {
   if (!store) store = 0 // this is how you define your initial state
