@@ -1,8 +1,8 @@
 {
   "name": "lil-store",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Super tiny state management library",
-  "main": "index.js",
+  "main": "dist",
   "scripts": {
     "build": "babel index.js -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
