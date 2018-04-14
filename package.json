@@ -1,10 +1,14 @@
 {
   "name": "lil-store",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Super tiny state management library",
-  "main": "dist",
+  "main": "index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "babel index.js -d dist",
+    "build": "rollup -c",
+    "clean": "rm -rf dist/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -12,10 +16,16 @@
     "management",
     "store"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/applefreak/lil-store.git"
+  },
   "author": "Poyu Chen <me@poyu.xyz>",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^3.0.3"
   }
 }
